@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "Schematic Symbols")(type "KiCad")(uri "${KIPRJMOD}/Schematic Symbols.kicad_sym")(options "")(descr ""))
-  (lib (name "PCB_Library")(type "KiCad")(uri "${KIPRJMOD}/PCB_Library.kicad_sym")(options "")(descr ""))
-)
