@@ -1,0 +1,18 @@
+.INA3221AIRGVR :1 ;26V, Triple, Bi-Directional, Low-/High-Side, I2C Out Current/Voltage Monitor w/Alerts
+QFN65P400X400X100-17N-D
+*STM IC
+*NGS
+*PLB 1="IN-3" 2="IN+3" 3="GND_1" 4="VS" 5="A0" 6="SCL" 7="SDA" 8="WARNING" 9="CRITICAL" 10="PV" 11="IN-1" 12="IN+1" 13="TC" 14="IN-2" 15="IN+2" 16="VPU" 17="GND_2"
+*MXP 17
+*DFN INA3221AIRGVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (INA3221AIRGVR)
+~!Mouser Part Number (595-INA3221AIRGVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA3221AIRGVR?qs=3AcK5DacLboHys8907TVUQ%3D%3D)
+~!Arrow Part Number (INA3221AIRGVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ina3221airgvr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/ina3221.pdf)
+~!Height (1mm)
+~!3D_Model (INA3221AIRGVR)
+INA3221AIRGVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

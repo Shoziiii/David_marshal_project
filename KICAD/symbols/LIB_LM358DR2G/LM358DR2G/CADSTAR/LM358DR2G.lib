@@ -1,0 +1,18 @@
+.LM358DR2G :1 ;LM358DR2G, Dual Operational Amplifier 5 to 28V, 8-Pin SOIC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="OUTPUT A" 2="INPUTS A_1" 3="INPUTS A_2" 4="VEE/GND" 5="INPUTS B_1" 6="INPUTS B_2" 7="OUTPUT B" 8="VCC"
+*MXP 8
+*DFN LM358DR2G
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (LM358DR2G)
+~!Mouser Part Number (863-LM358DR2G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/LM358DR2G?qs=2OtswVQKCOFTvDtJvQ3XHw%3D%3D)
+~!Arrow Part Number (LM358DR2G)
+~!Link Arrow Price/Stock (null?region=asia)
+~!Link Datasheet (http://www.onsemi.com/pub/Collateral/LM358-D.PDF)
+~!Height (1.75mm)
+~!3D_Model (LM358DR2G)
+LM358DR2G
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

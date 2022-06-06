@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RVT1V471M1010"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-07-14-09:01:54)
+    (mountForm default
+        (footprintRef "CAPAE1030X1100N")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Everlight
+PartNumber=EL357NB(TA)-G
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=4
+Version=1.1
+Released=2021-02-12 17:08:06
+Downloaded=2022-05-19 13:50:48
+3D=Y

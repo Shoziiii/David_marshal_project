@@ -1,0 +1,9 @@
+Manufacturer=NXP
+PartNumber=PCA9555PW,118
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=24
+Version=1.1
+Released=2018-01-24 10:42:12
+Downloaded=2022-05-28 18:18:20
+3D=Y

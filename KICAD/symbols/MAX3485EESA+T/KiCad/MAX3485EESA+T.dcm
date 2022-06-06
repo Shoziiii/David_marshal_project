@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX3485EESA+T
+D RS-422/RS-485 Interface IC 3.3V Powered, +/-15kV ESD-Protected, 12Mbps, Slew-Rate-Limited True RS-485/RS-422 Transceivers
+K
+F https://componentsearchengine.com/Datasheets/2/MAX3485EESA+T.pdf
+$ENDCMP
+#
+#End Doc Library

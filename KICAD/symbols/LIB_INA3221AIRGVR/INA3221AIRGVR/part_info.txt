@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=INA3221AIRGVR
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=2.1
+Released=2018-11-12 06:45:43
+Downloaded=2022-05-19 01:20:50
+3D=Y

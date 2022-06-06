@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX31912AUI+
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=29
+Version=1.1
+Released=2022-04-10 03:57:21
+Downloaded=2022-05-20 19:49:25
+3D=Y

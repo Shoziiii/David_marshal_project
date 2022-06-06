@@ -1,0 +1,9 @@
+Manufacturer=ROQANG
+PartNumber=RVT1V471M1010
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor Al Electrolytic
+PinCount=2
+Version=1.1
+Released=2021-07-14 09:01:54
+Downloaded=2022-05-19 01:07:05
+3D=Y

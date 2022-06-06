@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MCP6002T_I_SN'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "MCP6002T-I/SN" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "579-MCP6002T-I/SN", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D", "MCP6002T-I/SN", "https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac", "Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC", "https://componentsearchengine.com/Datasheets/2/MCP6002T-I_SN.pdf", "1.75 mm"
+END_PART
+
+END.

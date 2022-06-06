@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX31912AUI+
+D Translator/Serializer 28-Pin TSSOP EP Bulk
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX31912.pdf
+$ENDCMP
+#
+#End Doc Library

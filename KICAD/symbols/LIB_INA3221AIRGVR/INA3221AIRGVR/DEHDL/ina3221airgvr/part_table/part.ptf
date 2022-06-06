@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'INA3221AIRGVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "INA3221AIRGVR" (!) = "", "QFN65P400X400X100-17N-D", "Quad Flat No-Lead", "595-INA3221AIRGVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA3221AIRGVR?qs=3AcK5DacLboHys8907TVUQ%3D%3D", "INA3221AIRGVR", "https://www.arrow.com/en/products/ina3221airgvr/texas-instruments?region=nac", "26V, Triple, Bi-Directional, Low-/High-Side, I2C Out Current/Voltage Monitor w/Alerts", "http://www.ti.com/lit/ds/symlink/ina3221.pdf", "1 mm"
+END_PART
+
+END.

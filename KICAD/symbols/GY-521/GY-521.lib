@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# GY-521
+#
+DEF GY-521 MOD 0 40 Y Y 1 L N
+F0 "MOD" 0 130 50 H V L BNN
+F1 "GY-521" 0 -900 50 H V L BNN
+F2 "GY-521" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 12 0 100 0 -800 N
+P 2 0 0 12 0 -800 800 -800 N
+P 2 0 0 12 800 -800 800 100 N
+P 2 0 0 12 800 100 0 100 N
+T 0 370 -110 56 0 0 0 GY-521 Normal 0 L B
+T 0 330 -210 56 0 0 0 ITG/MPU Normal 0 L B
+P 2 0 0 12 400 -600 600 -600 N
+P 2 0 0 12 600 -600 550 -550 N
+P 2 0 0 12 600 -600 550 -650 N
+P 2 0 0 12 400 -600 400 -400 N
+P 2 0 0 12 400 -400 350 -450 N
+P 2 0 0 12 400 -400 450 -450 N
+T 0 650 -630 70 0 0 0 x Normal 0 L B
+T 0 500 -400 70 0 0 0 y Normal 0 L B
+X VCC 1 -200 0 200 R 40 40 0 0 B 
+X GND 2 -200 -100 200 R 40 40 0 0 B 
+X SCL 3 -200 -200 200 R 40 40 0 0 B 
+X SDA 4 -200 -300 200 R 40 40 0 0 B 
+X XDA 5 -200 -400 200 R 40 40 0 0 B 
+X XCL 6 -200 -500 200 R 40 40 0 0 B 
+X ADO 7 -200 -600 200 R 40 40 0 0 B 
+X INT 8 -200 -700 200 R 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

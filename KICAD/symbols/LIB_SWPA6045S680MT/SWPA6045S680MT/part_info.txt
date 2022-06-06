@@ -1,0 +1,9 @@
+Manufacturer=SUNLORD
+PartNumber=SWPA6045S680MT
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2022-05-05 05:46:34
+Downloaded=2022-05-29 19:21:38
+3D=Y

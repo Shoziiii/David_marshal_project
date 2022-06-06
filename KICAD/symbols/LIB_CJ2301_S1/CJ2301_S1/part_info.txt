@@ -1,0 +1,9 @@
+Manufacturer=Changjiang Electronics Tech (CJ)
+PartNumber=CJ2301 S1
+PartCategory=MOSFET (N-Channel)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=1.1
+Released=2019-12-06 11:59:31
+Downloaded=2022-05-22 03:28:21
+3D=Y

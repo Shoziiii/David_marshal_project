@@ -1,0 +1,9 @@
+Manufacturer=CUI Inc.
+PartNumber=TBP02R1W-381-06BE
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Right Angle PTH Box
+PinCount=6
+Version=1.1
+Released=2020-11-10 06:33:05
+Downloaded=2022-05-19 12:48:21
+3D=Y

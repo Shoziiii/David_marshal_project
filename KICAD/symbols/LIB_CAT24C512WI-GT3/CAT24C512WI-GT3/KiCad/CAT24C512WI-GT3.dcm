@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAT24C512WI-GT3
+D EEPROM,512kbit,64Kx8,1MHz I2C,SOIC8 ON Semiconductor CAT24C512WI-GT3 EEPROM Memory, 512kb, 400ns, 1.8  5.5 V 8-Pin SOIC
+K
+F http://www.onsemi.com/pub/Collateral/CAT24C512-D.PDF
+$ENDCMP
+#
+#End Doc Library

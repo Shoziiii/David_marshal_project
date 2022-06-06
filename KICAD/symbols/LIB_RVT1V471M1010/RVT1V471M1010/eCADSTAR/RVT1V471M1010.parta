@@ -1,0 +1,68 @@
+(Japanese_coding: sjis)
+(function "ECS_3607319"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-07-14-09:01:54)
+    (utime 2021-07-15-06:26:14)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "RVT1V471M1010")
+)
+
+
+(pinAssign "ECS_3607319"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-07-14-09:01:54)
+    (utime 2021-07-15-06:26:14)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_3607319")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "RVT1V471M1010")
+)
+
+
+(part "RVT1V471M1010"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-07-14-09:01:54)
+    (utime 2021-07-15-06:26:14)
+    (packageRef "RVT1V471M1010")
+    (pinAssignRef "ECS_3607319")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "Aluminum Electrolytic Capacitors - SMD 470uF +/-20% 35V SMD,10x10.2mm RoHS")
+    (property "Manufacturer_Name" "ROQANG")
+    (property "Manufacturer_Part_Number" "RVT1V471M1010")
+    (property "Mouser_Part_Number" "")
+    (property "Mouser_Price/Stock" "")
+    (property "Arrow_Part_Number" "")
+    (property "Arrow_Price/Stock" "")
+    (property "Datasheet_Link" "https://datasheet.lcsc.com/szlcsc/2004031004_ROQANG-RVT1V471M1010_C72519.pdf")
+    (property "compAreaTopHeight" 11)
+)
+
+

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XL1509_5.0E1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "XLSEMI", "XL1509-5.0E1" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "", "", "", "", "2A 150KHz 40V Buck DC to DC Converter.", "https://datasheet.lcsc.com/szlcsc/XLSEMI-XL1509-5-0E1_C61063.pdf", "1.75 mm"
+END_PART
+
+END.

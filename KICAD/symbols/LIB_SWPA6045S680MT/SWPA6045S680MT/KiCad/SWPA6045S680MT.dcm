@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SWPA6045S680MT
+D Power Inductors 68uH +/-20% 1A SMD,6.0x6.0x4.5mm RoHS
+K
+F https://datasheet.lcsc.com/lcsc/2110091630_Sunlord-SWPA6045S680MT_C53663.pdf
+$ENDCMP
+#
+#End Doc Library

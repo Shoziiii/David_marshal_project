@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CJ2301_S1
+D MOSFET P Trench 20V 2.3A 1V @ 250uA 112 m @ 2.8A,4.5V SOT-23(SOT-23-3) RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-CJ2301-S1_C8547.pdf
+$ENDCMP
+#
+#End Doc Library

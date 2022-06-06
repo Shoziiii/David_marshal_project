@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MJD122T4G
+PartCategory=Transistor
+PackageCategory=TO-XXX (Inc. DPAK)
+PinCount=4
+Version=1.1
+Released=2016-01-25 14:39:57
+Downloaded=2022-06-06 03:49:05
+3D=N

@@ -1,0 +1,9 @@
+Manufacturer=FUJITSU
+PartNumber=MB85RC128PNF-G-JNE1
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2017-01-11 16:38:36
+Downloaded=2022-05-20 20:39:46
+3D=N

@@ -1,0 +1,9 @@
+Manufacturer=XLSEMI
+PartNumber=XL1509-5.0E1
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-02-10 10:48:14
+Downloaded=2022-05-18 20:09:38
+3D=Y

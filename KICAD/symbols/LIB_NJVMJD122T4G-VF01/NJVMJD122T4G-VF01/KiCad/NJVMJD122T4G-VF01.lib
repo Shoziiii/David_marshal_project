@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NJVMJD122T4G-VF01
+#/814388/215985/2.49/3/4/Transistor BJT NPN
+DEF NJVMJD122T4G-VF01 Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "NJVMJD122T4G-VF01" 550 -50 50 H V L CNN
+F2 "NJVMJD122T4GVF01" 550 -150 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MJD122-D.PDF" 550 -250 50 H I L CNN
+F4 "ON SEMICONDUCTOR - NJVMJD122T4G-VF01 - TRANS, AEC-Q101, NPN, 100V, TO-252-3" 550 -350 50 H I L CNN "Description"
+F5 "" 550 -450 50 H I L CNN "Height"
+F6 "onsemi" 550 -550 50 H I L CNN "Manufacturer_Name"
+F7 "NJVMJD122T4G-VF01" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-NJVMJD122T4GVF01" 550 -750 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/NJVMJD122T4G-VF01?qs=z6PAvqrnkvSIFH9rohm0pw%3D%3D" 550 -850 50 H I L CNN "Mouser Price/Stock"
+F10 "NJVMJD122T4G-VF01" 550 -950 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/njvmjd122t4g-vf01/on-semiconductor" 550 -1050 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 400 -300 100 U 50 50 0 0 P
+X ~ 4 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

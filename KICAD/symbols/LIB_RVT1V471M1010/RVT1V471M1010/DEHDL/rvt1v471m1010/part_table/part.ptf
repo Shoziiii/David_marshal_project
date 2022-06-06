@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RVT1V471M1010'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROQANG", "RVT1V471M1010" (!) = "", "CAPAE1030X1100N", "Capacitor Al Electrolytic", "", "", "", "", "Aluminum Electrolytic Capacitors - SMD 470uF +/-20% 35V SMD,10x10.2mm RoHS", "https://datasheet.lcsc.com/szlcsc/2004031004_ROQANG-RVT1V471M1010_C72519.pdf", "11 mm"
+END_PART
+
+END.

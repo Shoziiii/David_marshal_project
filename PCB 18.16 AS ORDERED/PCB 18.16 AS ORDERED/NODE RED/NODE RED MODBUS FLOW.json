@@ -1,0 +1,447 @@
+[
+    {
+        "id": "8d8f77fe750e8608",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "44162c4814fb9ccd",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "func": "// Create new Buffer based on array bytes\nconst buf = Buffer.from(msg.payload.buffer);\n\n// Represent these bytes as 32-bit unsigned int\nconst value = buf.readUInt32BE();\n\n// save the value\nmsg.payload = value;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 240,
+        "wires": [
+            [
+                "2d3d50b131c0d2fa"
+            ]
+        ]
+    },
+    {
+        "id": "c9cb8f6894d5e16c",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f2e293a3614af2ed",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "func": "msg.payload = {\n    'fc': 3, \n    'unitid': 1, \n    'address': 100,\n    'quantity': 2 \n    } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 60,
+        "wires": [
+            [
+                "6c5ec982be47b2fc",
+                "c9cb8f6894d5e16c"
+            ]
+        ]
+    },
+    {
+        "id": "ada998275bf05c2c",
+        "type": "inject",
+        "z": "8d8f77fe750e8608",
+        "name": "reader",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "f2e293a3614af2ed",
+                "c789da09cbb51cc8",
+                "4c25ba8774dd778c"
+            ]
+        ],
+        "info": "ACC Automation Sample Code"
+    },
+    {
+        "id": "aabb0db067bce6b7",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "641b7acff5f5f6d7",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "c789da09cbb51cc8",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "func": "msg.payload = {\n    'fc': 3, \n    'unitid': 1, \n    'address': 200,\n    'quantity': 2 \n    } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 160,
+        "wires": [
+            [
+                "5f8bb74e117c141e",
+                "641b7acff5f5f6d7"
+            ]
+        ]
+    },
+    {
+        "id": "2d3d50b131c0d2fa",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "14454f912b542553",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "4c25ba8774dd778c",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "func": "msg.payload = {\n    'fc': 3, \n    'unitid': 1, \n    'address': 202,\n    'quantity': 2 \n    } \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 300,
+        "wires": [
+            [
+                "4a793c2d242181df"
+            ]
+        ]
+    },
+    {
+        "id": "4ba9f427366c4e61",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "func": "// Create new Buffer based on array bytes\nconst buf = Buffer.from(msg.payload.buffer);\n\n// Represent these bytes as 32-bit unsigned int\nconst value = buf.readUInt32BE();\n\nvar decimal = (buf[1] << 16) + buf[0];\n\n//var decimal = (buffer[0] << 16) + (buffer[1] << 8) + buffer[2];\n\n// save the value\nmsg.payload = decimal //value;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 580,
+        "wires": [
+            [
+                "d24888486d330c3a"
+            ]
+        ]
+    },
+    {
+        "id": "d24888486d330c3a",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "497c1e1b033eca37",
+        "type": "modbus-response",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 790,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "13bd94ba6f2b1e89",
+        "type": "modbus-response",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 790,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "47da706ccf042a26",
+        "type": "modbus-response",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "registerShowMax": 20,
+        "x": 790,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "6c5ec982be47b2fc",
+        "type": "modbus-flex-getter",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "logIOActivities": false,
+        "server": "f7f13385123ac0a8",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "x": 550,
+        "y": 60,
+        "wires": [
+            [],
+            [
+                "aabb0db067bce6b7",
+                "497c1e1b033eca37"
+            ]
+        ]
+    },
+    {
+        "id": "5f8bb74e117c141e",
+        "type": "modbus-flex-getter",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "logIOActivities": false,
+        "server": "f7f13385123ac0a8",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "x": 550,
+        "y": 180,
+        "wires": [
+            [],
+            [
+                "13bd94ba6f2b1e89",
+                "44162c4814fb9ccd",
+                "318cb53d3b0491af"
+            ]
+        ]
+    },
+    {
+        "id": "4a793c2d242181df",
+        "type": "modbus-flex-getter",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "showStatusActivities": true,
+        "showErrors": true,
+        "logIOActivities": false,
+        "server": "f7f13385123ac0a8",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": true,
+        "keepMsgProperties": true,
+        "x": 550,
+        "y": 340,
+        "wires": [
+            [],
+            [
+                "47da706ccf042a26",
+                "4ba9f427366c4e61",
+                "5a40bfc3fdf079ec",
+                "97f667747e07ae32"
+            ]
+        ]
+    },
+    {
+        "id": "97f667747e07ae32",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5a40bfc3fdf079ec",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "test32bit",
+        "func": "\n//var newMsg = { payload: (msg.payload.data[1] << 16) + msg.payload.data[0],topic:msg.topic };\n//return newMsg;\n\n\n//var newMsg = { payload: msg.payload.data[1] << 16 + msg.payload.data[0],topic:msg.topic };\n//return newMsg;\n\nvar newMsg = { payload: (msg.payload.data[1] << 16) + msg.payload.data[0],topic:msg.topic };\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 380,
+        "wires": [
+            [
+                "1edcf94b338bb4d5"
+            ]
+        ]
+    },
+    {
+        "id": "1edcf94b338bb4d5",
+        "type": "debug",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "532d5fbc1aec7684",
+        "type": "comment",
+        "z": "8d8f77fe750e8608",
+        "name": "",
+        "info": "Combines 2 registers into long",
+        "x": 1120,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "318cb53d3b0491af",
+        "type": "function",
+        "z": "8d8f77fe750e8608",
+        "name": "test32bit",
+        "func": "\n//var newMsg = { payload: (msg.payload.data[1] << 16) + msg.payload.data[0],topic:msg.topic };\n//return newMsg;\n\n\n//var newMsg = { payload: msg.payload.data[1] << 16 + msg.payload.data[0],topic:msg.topic };\n//return newMsg;\n\nvar newMsg = { payload: (msg.payload.data[1] << 16) + msg.payload.data[0],topic:msg.topic };\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 280,
+        "wires": [
+            [
+                "14454f912b542553"
+            ]
+        ]
+    },
+    {
+        "id": "f7f13385123ac0a8",
+        "type": "modbus-client",
+        "name": "PCB1816_01",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": true,
+        "queueLogEnabled": true,
+        "tcpHost": "192.168.1.12",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    }
+]

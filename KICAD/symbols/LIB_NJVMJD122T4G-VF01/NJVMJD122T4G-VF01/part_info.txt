@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NJVMJD122T4G-VF01
+PartCategory=Transistor BJT NPN
+PackageCategory=Other
+PinCount=3
+Version=2.3
+Released=2019-10-28 10:33:59
+Downloaded=2022-06-06 04:00:52
+3D=N

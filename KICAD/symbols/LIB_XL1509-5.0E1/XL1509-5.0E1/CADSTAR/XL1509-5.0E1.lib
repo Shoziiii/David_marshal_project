@@ -1,0 +1,18 @@
+.XL1509-5.0E1 :1 ;2A 150KHz 40V Buck DC to DC Converter.
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="OUTPUT" 3="FEEDBACK" 4="ON/OFF" 5="GND_1" 6="GND_2" 7="GND_3" 8="GND_4"
+*MXP 8
+*DFN XL1509-5.0E1
+~!Manufacturer_Name (XLSEMI)
+~!Manufacturer_Part_Number (XL1509-5.0E1)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/XLSEMI-XL1509-5-0E1_C61063.pdf)
+~!Height (1.75mm)
+~!3D_Model (XL1509-5.0E1)
+XL1509-5.0E1
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

@@ -1,0 +1,252 @@
+
+(EDIF
+  (rename &INA3221AIRGVR "INA3221AIRGVR")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2022 05 19 01 20 50)
+      (dataOrigin "261966/215985/2.49/17/3/Integrated Circuit")
+      (program "SamacSys ECAD Model INA3221AIRGVR"
+        (version "2.1"))))
+  (library
+  (rename &INA3221AIRGVR "INA3221AIRGVR")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &INA3221AIRGVR "INA3221AIRGVR")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "INA3221AIRGVR"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "QFN65P400X400X100-17N-D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Texas Instruments"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "INA3221AIRGVR"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "595-INA3221AIRGVR"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA3221AIRGVR?qs=3AcK5DacLboHys8907TVUQ%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "INA3221AIRGVR"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/ina3221airgvr/texas-instruments?region=nac"))
+          (property (rename &Description "Description") (string "26V, Triple, Bi-Directional, Low-/High-Side, I2C Out Current/Voltage Monitor w/Alerts"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.ti.com/lit/ds/symlink/ina3221.pdf"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "INA3221AIRGVR"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &INM3 "INM3")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &INP3 "INP3")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &VS "VS")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &A0 "A0")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &SCL "SCL")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &SDA "SDA")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &WARNING "WARNING")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &CRITICAL "CRITICAL")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &PV "PV")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &INM1 "INM1")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &INP1 "INP1")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &TC "TC")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &INM2 "INM2")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &INP2 "INP2")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (port
+            (rename &VPU "VPU")
+            (designator "16")
+            (property (rename ORDER "Order") (string "15") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "17")
+            (property (rename ORDER "Order") (string "16") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &INM3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &INP3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -700) (pt 0 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -700))))
+            )
+            (portImplementation
+              (name &VS (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -800) (pt 0 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -800))))
+            )
+            (portImplementation
+              (name &A0 (display PINNAME))
+              (figure PIN (path (pointList (pt 300 -1600) (pt 300 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 -1600))))
+            )
+            (portImplementation
+              (name &SCL (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1600) (pt 400 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1600))))
+            )
+            (portImplementation
+              (name &SDA (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1600) (pt 500 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1600))))
+            )
+            (portImplementation
+              (name &WARNING (display PINNAME))
+              (figure PIN (path (pointList (pt 600 -1600) (pt 600 -1400))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -1600))))
+            )
+            (portImplementation
+              (name &INP1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -500) (pt 1200 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -500))))
+            )
+            (portImplementation
+              (name &INM1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -600) (pt 1200 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -600))))
+            )
+            (portImplementation
+              (name &PV (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -700) (pt 1200 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -700))))
+            )
+            (portImplementation
+              (name &CRITICAL (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -800) (pt 1200 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -800))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (figure PIN (path (pointList (pt 300 200) (pt 300 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 300 200))))
+            )
+            (portImplementation
+              (name &VPU (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &INP2 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &INM2 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &TC (display PINNAME))
+              (figure PIN (path (pointList (pt 700 200) (pt 700 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1000 0)
+                  (pt 1000 -1400)
+                  (pt 0 -1400)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1050 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1050 30))))
+          )
+        )
+      )
+    )
+  )
+)

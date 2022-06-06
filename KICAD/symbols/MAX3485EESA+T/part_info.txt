@@ -1,0 +1,9 @@
+Manufacturer=Maxim Integrated
+PartNumber=MAX3485EESA+T
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-01-20 12:05:56
+Downloaded=2022-05-31 13:38:40
+3D=Y

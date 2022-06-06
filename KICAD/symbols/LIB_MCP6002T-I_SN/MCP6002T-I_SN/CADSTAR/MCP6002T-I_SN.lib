@@ -1,0 +1,18 @@
+.MCP6002T-I_SN :1 ;Op. Amplifier Dual 1MHz Low-Power SOIC8 Microchip MCP6002T-I/SN, Dual Low Power Op Amp, 1MHz Rail-Rail, 1.8  6 V, 8-Pin SOIC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VOUTA" 2="VINA-" 3="VINA+" 4="VSS" 5="VINB+" 6="VINB-" 7="VOUTB" 8="VDD"
+*MXP 8
+*DFN MCP6002T-I_SN
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MCP6002T-I/SN)
+~!Mouser Part Number (579-MCP6002T-I/SN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP6002T-I-SN?qs=hul3WK2zl4od4mMZEAcUDQ%3D%3D)
+~!Arrow Part Number (MCP6002T-I/SN)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mcp6002t-isn/microchip-technology?region=nac)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/MCP6002T-I_SN.pdf)
+~!Height (1.75mm)
+~!3D_Model (MCP6002T-I_SN)
+MCP6002T-I_SN
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

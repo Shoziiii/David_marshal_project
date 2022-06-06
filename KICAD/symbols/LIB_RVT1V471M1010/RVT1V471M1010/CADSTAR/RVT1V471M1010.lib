@@ -1,0 +1,18 @@
+.RVT1V471M1010 :1 ;Aluminum Electrolytic Capacitors - SMD 470uF +/-20% 35V SMD,10x10.2mm RoHS
+CAPAE1030X1100N
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN RVT1V471M1010
+~!Manufacturer_Name (ROQANG)
+~!Manufacturer_Part_Number (RVT1V471M1010)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/2004031004_ROQANG-RVT1V471M1010_C72519.pdf)
+~!Height (11mm)
+~!3D_Model (RVT1V471M1010)
+RVT1V471M1010
+1.1!U 2.1!U 

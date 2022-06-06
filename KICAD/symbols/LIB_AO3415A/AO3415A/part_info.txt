@@ -1,0 +1,9 @@
+Manufacturer=Alpha & Omega Semiconductors
+PartNumber=AO3415A
+PartCategory=MOSFET (P-Channel)
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=2.1
+Released=2017-04-04 14:52:30
+Downloaded=2022-05-22 03:35:22
+3D=Y

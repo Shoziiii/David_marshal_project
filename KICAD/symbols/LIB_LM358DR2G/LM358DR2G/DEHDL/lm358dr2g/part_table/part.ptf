@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM358DR2G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "LM358DR2G" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "863-LM358DR2G", "https://www.mouser.co.uk/ProductDetail/onsemi/LM358DR2G?qs=2OtswVQKCOFTvDtJvQ3XHw%3D%3D", "LM358DR2G", "null?region=asia", "LM358DR2G, Dual Operational Amplifier 5 to 28V, 8-Pin SOIC", "http://www.onsemi.com/pub/Collateral/LM358-D.PDF", "1.75 mm"
+END_PART
+
+END.
